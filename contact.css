@@ -1,0 +1,153 @@
+body {
+	margin: 0px;
+ background-color:  #F9FAFA;  /* #9fa8a3 */
+	width: 100%;
+}
+header {
+	height: 80px;
+	background-color: #EEEEEE  ;
+	position: fixed;
+	width: 100%; 
+	top: 0px;
+	
+
+}
+
+
+
+footer {
+	height: 80px;
+	background-color:  #EEEEEE;/*  #c5d5cb */
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+
+	
+}
+
+
+
+#nav1 {
+		 position: center; 
+	 width: 100%; 
+    text-align: center;
+	margin-bottom: 15px;
+ 	margin-top: 15px; 
+
+}
+	
+	#nav1 > li {
+		
+		
+		display: inline-block;
+		margin-left: 130px;
+		color: white;
+		font-size: 20px;
+		font-weight:  700;
+		
+		text-transform: uppercase;
+	}
+#nav1 > li a:hover {
+	color: #16302B;
+	
+}
+
+
+li a:link, li a:visited {
+    background-color:  #9fa8a3 ;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+ li a:active {
+    background-color: gray;   /* li a:hover, remove*/
+	
+}
+
+#logo {
+	height: 80px;
+	width: 150px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	
+	
+	
+}
+
+
+
+#copyright {
+	text-align: center;
+	color: #8BAAAD;
+	
+	
+}
+#social {
+	
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.linkue {
+	color: #979797;    /*  #feffdd */    /* ngjyra e linqev */
+	text-decoration: none;
+}
+
+#permbajtja {
+	
+	 color: #979797;
+	 font-family: Courier New;
+	text-align: center;
+	margin-top: 230px;
+	font-size: 30px;
+	margin-bottom: 180px;
+	
+}
+.form {
+	
+	color: #436363;
+ 
+   
+	text-align:center;
+	font-family: Courier, "Lucida Console", monospace;
+	background-color: #A3C9A7;
+ 	margin-bottom: 78px; 
+	margin-top: 250px;
+}
+input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+}
+input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+textarea {
+    width: 35%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
